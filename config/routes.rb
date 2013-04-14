@@ -1,7 +1,7 @@
 DemoApp::Application.routes.draw do
-  resources :microposts #send urls with this slug to microposts controller
+  resources :microposts #send urls with this slug preface to microposts controller
 
-  resources :users #send urls with this slug to users controller
+  resources :users #send urls with this slug preface to users controller
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

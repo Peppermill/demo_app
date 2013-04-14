@@ -1,8 +1,8 @@
-class UsersController < ApplicationController
-  # GET /users
+ class UsersController < ApplicationController
+  # GET /users (everything in comments is a url)
   # GET /users.json
   def index
-    @users = User.all
+    @users = User.all # create instance variable to contain all users in model
 
     respond_to do |format|
       format.html # index.html.erb
